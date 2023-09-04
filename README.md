@@ -1,4 +1,4 @@
-# Robotic_hand_control_ih2_azurra
+# Robotic hand control (ih2_azzurra)
 
 ## Overview of the repostitory
 <div align="justify">
