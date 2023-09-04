@@ -18,10 +18,10 @@ Although this repository is easily extendable, it is worth noting that during th
 - 26 4-mm marker hand setup (see image below)
 ```
 <p align="center">
-   <img src="/Visualizations/Error_response.png" width="400" />
+   <img src="/Visualizations/Error_response.png" width="900" />
 </p>
 <p align="center">
-   <img src="/Visualizations/Response_response.png" width="400" />
+   <img src="/Visualizations/Response_response.png" width="900" />
 </p>
 <!---
 your comment goes here
