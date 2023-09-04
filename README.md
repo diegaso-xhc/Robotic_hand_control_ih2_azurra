@@ -11,28 +11,27 @@ Human hands are the sought-after end effector, because of their high performance
    
 ## Understanding repository
 
-Although this repository is easily extendable, it is worth noting that during the development of this code a given fixed setup was used. The setup consisted of:
-
+The reository contains two files, namely:
 ```
-- VICON motion tracking capture with 16 IR-cameras
-- 12 purposely selected 3D-printed (PLA) objects
-- Artec Eva Lite 3D - Scanner
-- 26 4-mm marker hand setup (see image below)
+- toolkits: Python file containing all classes and controllers to connect, use, and control the robotic hand.
+- main: A main file containing samples on how to use the functions on toolkits.
 ```
+The classes are written in a way that facilitates the connection with the hand. The repository also reduces the complexity of handling bytes transmission from and to the hand. This allows the user to focus directly on high level controllers and experiment within different applications.
+<br />
+Whenever using position, current or force controllers, you will be able to see and extract the error and response on each one of the fingers you desired to control. The following images correspond to the position error and response signals of the motion on the gif above. 
+<br />
+### Error response vs. Time of 
 <p align="center">
    <img src="/Visualizations/Error_response.png" width="750" />
 </p>
 <p align="center">
    <img src="/Visualizations/Response_response.png" width="750" />
 </p>
-<!---
-your comment goes here
-and here
-![This is an image](/Visualizations/vis_1.png)
-![This is an image](/Visualizations/grasp_wine_glass.gif) ![This is an image](/Visualizations/grasp_cup.gif)
-<img src = "/Visualizations/grasp_wine_glass.gif" width="400"> <img src = "/Visualizations/grasp_cup.gif" width="570">
 
--->
+<br />
+Go ahead and explore the functionalities of this repository!
+<br />
+
 </div>
 
 Nevertheless, the contributions of our work provide tools to extend our results to different setups, provided that changes are made on the pertinent locations. If you are unsure about this, please contact the author at (diego.hidalgo-carvajal@tum.de)
