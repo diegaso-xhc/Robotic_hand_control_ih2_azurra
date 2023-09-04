@@ -45,16 +45,13 @@ Whenever using position, current or force controllers, you will be able to see a
 The contributions of this repository can be summarized as follows:
 
 ```
-- A library for post processing and visualization of motion capture data --> HMCL_lib
-- A set of purposely selected objects, which guarantee grasping postures variability --> Info_objects
-- Algorithms to track known 3D objects with random marker placements --> Track_object_lib
-- Algorithms for mesh manipulation --> Mesh_Manip_lib
-- Pseudonymized data from trials (saved as Study objects, see HMCL_lib) --> Trials
-- Algorithms to calculate contact surfaces information betwen a hand mesh and an object mesh --> see main
-- Python algorithms to handle the MANO model, including marker position optimization --> fit_MANO (Developed in 
-  cooperation with Omid Taheri (https://is.mpg.de/person/otaheri).
+- A class that facilitates the connection via serial port to a device.
+- A class that handles the byte transmission to and from the robotic hand.
+- Most of the functionalities explained in the manual of the ih2 azzurra hand (you won't need to develop things on your own)
+- Ready to use controllers for position, current and force
+- Visualization functions to check if the controllers responses were what you expected.
 ```
 
 ## License
 
-Developed by Diego Hidalgo C. (2021). This repository is intended for research purposes only. If you wish to use any parts of the provided code for commercial purposes, please contact the author at diego.hidalgo-carvajal@tum.de.
+Developed by Diego Hidalgo C. (2021). This repository is intended for research purposes only. If you wish to use any parts of the provided code for commercial purposes, please contact the author at hidalgocdiego@gmail.com.
