@@ -20,12 +20,15 @@ The classes are written in a way that facilitates the connection with the hand. 
 <br />
 Whenever using position, current or force controllers, you will be able to see and extract the error and response on each one of the fingers you desired to control. The following images correspond to the position error and response signals of the motion on the gif above:
 <br />
+
+
 ### Position error vs. Time
 <p align="center">
    <img src="/Visualizations/Error_response.png" width="750" />
 </p>
-
 <br />
+
+
 ### Position error vs. Time
 <p align="center">
    <img src="/Visualizations/Response_response.png" width="750" />
