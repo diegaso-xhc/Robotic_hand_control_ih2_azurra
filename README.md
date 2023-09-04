@@ -24,12 +24,13 @@ Whenever using position, current or force controllers, you will be able to see a
 <p align="center">
    <img src="/Visualizations/Error_response.png" width="750" />
 </p>
-sdasadsadsadsadsadsadsa
+
 <br />
 ### Position error vs. Time
 <p align="center">
    <img src="/Visualizations/Response_response.png" width="750" />
 </p>
+
 <br />
 <strong>Go ahead and explore the functionalities of this repository!</strong>
 <br />
