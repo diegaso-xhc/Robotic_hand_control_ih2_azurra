@@ -382,9 +382,9 @@ class controller_azurra():
                 self.display_error_grasp()
 
         if self.type == 'PID' and self.var == 'Force':
-            kp = 0.65  # Proportional gain
-            kd = 0.02  # Derivative gain
-            ki = 0.01  # Integral gain
+            kp = 0.25  # Proportional gain
+            kd = 0.005  # Derivative gain
+            ki = 0.009  # Integral gain
             print('Controlling Force with PID Controller')
             I = [0 for i in range(5)]  # integral part
             c_s = [0 for i in range(5)]
