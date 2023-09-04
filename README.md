@@ -31,7 +31,7 @@ sdasadsadsadsadsadsadsa
    <img src="/Visualizations/Response_response.png" width="750" />
 </p>
 <br />
-__Go ahead and explore the functionalities of this repository!__
+<strong>Go ahead and explore the functionalities of this repository!</strong>
 <br />
 
 </div>
