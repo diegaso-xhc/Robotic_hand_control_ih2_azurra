@@ -18,23 +18,21 @@ The reository contains two files, namely:
 ```
 The classes are written in a way that facilitates the connection with the hand. The repository also reduces the complexity of handling bytes transmission from and to the hand. This allows the user to focus directly on high level controllers and experiment within different applications.
 <br />
-Whenever using position, current or force controllers, you will be able to see and extract the error and response on each one of the fingers you desired to control. The following images correspond to the position error and response signals of the motion on the gif above. 
+Whenever using position, current or force controllers, you will be able to see and extract the error and response on each one of the fingers you desired to control. The following images correspond to the position error and response signals of the motion on the gif above:
 <br />
-### Error response vs. Time of 
+### Position error vs. Time
 <p align="center">
    <img src="/Visualizations/Error_response.png" width="750" />
 </p>
+### Position response vs. Time
 <p align="center">
    <img src="/Visualizations/Response_response.png" width="750" />
 </p>
-
 <br />
-Go ahead and explore the functionalities of this repository!
+__Go ahead and explore the functionalities of this repository!__
 <br />
 
 </div>
-
-Nevertheless, the contributions of our work provide tools to extend our results to different setups, provided that changes are made on the pertinent locations. If you are unsure about this, please contact the author at (diego.hidalgo-carvajal@tum.de)
 
 ## Contributions
 
@@ -50,41 +48,6 @@ The contributions of this repository can be summarized as follows:
 - Python algorithms to handle the MANO model, including marker position optimization --> fit_MANO (Developed in 
   cooperation with Omid Taheri (https://is.mpg.de/person/otaheri).
 ```
-
-## Examples of hand-object contact level human manipulation
-
-### Visualization of human hand-object interaction
-
-Plots of the contact interaction of the subject in a specified frame. Contact surfaces are visible in read. 
-
-<p align="center">
-   <img src="/Visualizations/Frame_visualization.png" width="650" />
-</p>
-
-### Grasping of a cylinder
-
-Plots of object along contact surfaces for grasping analysis. Contact surfaces are visible in red.
-
-<p align="center">
-  <img src="/Visualizations/grasp_cylinder.png" width="550" />  
-</p>
-
-### Grasping of a wine glass and a cup
-
-Digital representation of the manipulation of a wine glass and a cup.
-
-<p align="center">
-  <img src="/Visualizations/grasp_wine_glass.gif" width="342" />
-  <img src="/Visualizations/grasp_cup.gif" width="575" />   
-</p>
-
-### Contact surfaces with different hand parameters
-
-A generic and a customized hand models were used to calculate the contact surfaces during the human manipulation recording. It can be seen that the hand model parameters play a role on the accuracy of the contact surfaces.
-
-<p align="center">
-  <img src="/Visualizations/Contact_surface_diff.PNG" width="600" />  
-</p>
 
 ## License
 
