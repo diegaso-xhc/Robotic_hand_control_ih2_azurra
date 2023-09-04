@@ -5,20 +5,11 @@
 Human hands are the sought-after end effector, because of their high performance and remarkable flexibility. Emulating and embedding human hand capabilities into robotic grasping is crucial to further advance the object manipulation field. State-of-the-art robot hands allow the exertion of grasps which can be leveraged to accomplish complex tasks (e.g. in hand manipulation scenarios). Among these state-of-the-art robotic hands is the <a href="https://www.prensilia.com/ih2-azzurra-hand/">ih2 azzurra hand</a> developed by <a href="https://www.prensilia.com/">Prensilia</a>. This hand offers 5 degrees of actuation with 11 degrees of freedom. Additionally, the hand allows position, current, velocity, and force control on its fringers. Since interacting with this robotic hand is not intuitive at first, this repository provides some ready to use functionalities that can be used to build more complex actions.   
 <br />
 <br /> 
-See paper X for reference (currently being reviewed)
-<br />
-<br /> 
-Provided that positional motion capture data of a human hand, and of relevant landmarks of objects are available, this repository allows the digital reproduction of the interaction, as it can be seen below:
-<br /> 
-<br /> 
 <p align="center">
    <img src="/Visualizations/framework.gif" width="970" />
 </p>
-<sup> *Romero, Javier, Dimitrios Tzionas, and Michael J. Black. "Embodied hands: Modeling and capturing hands and bodies together." ACM Transactions on Graphics (ToG) 36.6 (2017): 1-17.</sup>
-<br />
-Here, a tailored human hand motion capture session can be represented virtually, via the usage of .obj/.stl files of the objects being manipulated, the human hand MANO model*, and the author's algorithms.
 
-## Experimental setup for repository
+## Understanding repository
 
 Although this repository is easily extendable, it is worth noting that during the development of this code a given fixed setup was used. The setup consisted of:
 
