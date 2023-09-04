@@ -6,7 +6,7 @@ Human hands are the sought-after end effector, because of their high performance
 <br />
 <br /> 
 <p align="center">
-   <img src="/Visualizations/framework.gif" width="970" />
+   <img src="/Visualizations/ih2_azzurra.png" width="970" />
 </p>
 
 ## Understanding repository
