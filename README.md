@@ -46,10 +46,10 @@ The contributions of this repository can be summarized as follows:
 
 ```
 - A class that facilitates the connection via serial port to a device.
-- A class that handles the byte transmission to and from the robotic hand.
-- Most of the functionalities explained in the manual of the ih2 azzurra hand (you won't need to develop things on your own)
-- Ready to use controllers for position, current and force
-- Visualization functions to check if the controllers responses were what you expected.
+- Classes that handle the byte transmission to and from the robotic hand.
+- Most of the functionalities explained in the manual of the ih2 azzurra hand (you won't need to develop things on your own).
+- Ready to use controllers for position, current and force (P,PI,PD,PID).
+- Visualization functions for analysis of the controllers responses.
 ```
 
 ## License
