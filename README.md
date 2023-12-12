@@ -11,7 +11,7 @@ Human hands are the sought-after end effector, because of their high performance
    
 ## Understanding repository
 
-The reository contains two files, namely:
+The repository contains two files, namely:
 ```
 - toolkits: Python file containing all classes and controllers to connect, use, and control the robotic hand.
 - main: A main file containing samples on how to use the functions on toolkits.
